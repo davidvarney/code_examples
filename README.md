@@ -1,11 +1,20 @@
 Code Examples
 =============
 
-1. functions
+### 1. functions
     * faa_aircraft_info.php
-2. Laravel
-    * libraries
-        * flash.php
-    * tasks
-        * export_test_data_students.php
-        * restore_test_data_students.php
+        - Custom function that utilizes phpQuery to access the
+          FAA's website to gather detailed information about
+          aircraft given their N Number (Tail Number).
+### 2. Laravel
+####    * libraries
+            * flash.php
+                - Custom library that allows management of system messages
+                  for things like errors, form feedback, and general overall
+                  information.
+####    * tasks
+            * export_test_data_students.php
+                - Exports students' info on a DB that has been restored
+                  via the restore_test_data_students.php task.
+            * restore_test_data_students.php
+                - Restores DB backups for a given date range.
