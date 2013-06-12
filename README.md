@@ -1,6 +1,7 @@
 Code Examples
 =============
-
+Below is a rough outline of the code examples directories and their contents.
+You can view these files by making your way to the "Files" area above.
 ### 1. functions
     * faa_aircraft_info.php
         - Custom function that utilizes phpQuery to access the
